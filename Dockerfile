@@ -1,2 +1,2 @@
-FROM public.ecr.aws/nginx/nginx
+FROM nginx
 COPY static-html-directory /usr/share/nginx/html
